@@ -18,7 +18,22 @@ author :
   twitter : jontsai
   feedburner : jontsaigithub
 
-pages : ['about', 'tags', 'pages', 'archive', categories']
+topbar:
+  - 
+    url : '/about'
+    title : 'About'
+  - 
+    url : '/tags'
+    title : 'Tags'
+  - 
+    url : '/pages'
+    title : 'Pages'
+  - 
+    url : '/archives'
+    title : 'Archives'
+  - 
+    url : '/categories'
+    title : 'Categories'
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
