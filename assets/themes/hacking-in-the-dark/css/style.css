@@ -1,0 +1,67 @@
+/*
+
+http://www.colourlovers.com/palette/2080987/HackingIntheDark
+Background - "Dark Charcoal" (#181818)
+Foreground text - White (#fff)
+Links - "Dark Forest Green" (#107010)
+Hover Links - "Golf Green" (#18a718)
+Headings - "Deep Orange" (#df8020)
+Heading Border & Trim - "Caution Orange" (#ffc40c)
+
+*/
+
+.hackinthedark,
+.hackinthedark #wrap,
+.hackinthedark #footer {
+    background-color: #181818;
+    color: #fff;
+    font-family: "Palatino Linotype", Palatino, serif;
+    font-size: 18px;
+}
+
+.hackinthedark .brand,
+.hackinthedark .brand a,
+.hackinthedark .brand a:active,
+.hackinthedark .brand a:hover {
+    color: #fff;
+    text-decoration: none;
+    font-family: Courier New, serif;
+    font-weight: bold;
+    font-size: 72px;
+    letter-spacing: 10px;
+}
+
+.hackinthedark .tagline {
+    font-style: italic;
+    font-family: "Palatino Linotype", Palatino, serif;
+}
+
+.hackinthedark a {
+    color: #107010;
+}
+
+.hackinthedark a:active,
+.hackinthedark a:hover {
+    color: #18a718;
+}
+
+/*
+.hackinthedark li.active a,
+.hackinthedark li.active a:hover {
+    color: #fff;
+    text-decoration: none;
+    cursor: default;
+}
+*/
+
+.hackinthedark h1 {
+    font-weight: bold;
+}
+
+.hackinthedark h1,
+.hackinthedark h2,
+.hackinthedark h3,
+.hackinthedark .navlinks,
+.hackinthedark .footerlinks {
+    font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+}

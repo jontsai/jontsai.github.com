@@ -4,3 +4,7 @@ title: "About"
 description: ""
 ---
 {% include JB/setup %}
+
+{% if site.author.aboutme %}
+<iframe id="about_iframe" src="http://about.me/{{ site.author.aboutme }}"></iframe>
+{% endif %}

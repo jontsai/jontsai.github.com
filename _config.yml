@@ -2,38 +2,49 @@
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "CNAME"]
 auto: true
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : jontsai@github
-tagline: Code and stuff
+title : jonathantsai
+tagline: Also known as jontsai or jontsai8601
 author :
   name : Jonathan Tsai
   email : akajontsai-devel@yahoo.com
+  aboutme : jontsai
   github : jontsai
   twitter : jontsai
-  feedburner : jontsaigithub
+  linkedin : jontsai
+  facebook : jontsai
+  feedburner : jontsai
 
-topbar:
-  - 
+navlinks :
+  -
+    url : '/'
+    title : Home
+  -
     url : '/about'
-    title : 'About'
-  - 
-    url : '/tags'
-    title : 'Tags'
-  - 
+    title : About
+  -
+    url : '/code'
+    title : Code
+
+footerlinks:
+  -
     url : '/pages'
-    title : 'Pages'
-  - 
-    url : '/archives'
-    title : 'Archives'
-  - 
+    title : Pages
+  -
     url : '/categories'
-    title : 'Categories'
+    title : Categories
+  -
+    url : '/tags'
+    title : Tags
+  -
+    url : '/archive'
+    title : Archive
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -43,7 +54,7 @@ topbar:
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://github.jonathantsai.com
+production_url : http://www.jonathantsai.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -100,7 +111,7 @@ JB :
   comments :
     provider : disqus
     disqus :
-      short_name : jontsaigithub
+      short_name : jontsai
     livefyre :
       site_id : 123
     intensedebate :
@@ -118,7 +129,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-30404168-1'
+        tracking_id : 'UA-30424103-1'
     getclicky :
       site_id : 
     mixpanel :

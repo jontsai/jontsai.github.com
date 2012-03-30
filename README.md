@@ -1,10 +1,10 @@
-# jontsai@github
+# jonathantsai.com
 
-GitHub User page for jontsai
+This is the code for my personal page, which also serves as my GitHub user page.
 
 ## Links
 
-- http://github.jonathantsai.com
+- http://www.jonathantsai.com (CNAME for http://jontsai.github.com)
 
 ## Resources
 

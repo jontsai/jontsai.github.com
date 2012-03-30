@@ -1,0 +1,73 @@
+/* main structural css */
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    padding: 20px;
+    width: 900px;
+    margin: auto;
+}
+
+#header {
+    font-size: 18px;
+    text-align: center;
+    padding: 15px;
+}
+
+#main {
+}
+
+#footer {
+    text-align: center;
+    height: 75px;
+}
+
+#about_iframe {
+    width: 800px;
+    height: 600px;
+    overflow: hidden;
+    border: none;
+}
+
+/* page structural css */
+.centered-box {
+    width: 960px;
+    margin: auto;
+}
+
+.page-header {
+    background-color: #df8020;
+    border: 3px solid #ffc40c;
+    margin-bottom: 10px;
+}
+
+/* dependent structural css */
+
+#header .tagline {
+    padding: 15px;
+}
+
+#navbar li,
+#footer li {
+    display: inline;
+}
+
+h1 {
+    font-size: 36px;
+    padding: 12px;
+}
+
+h3,
+#navbar ul {
+    font-size: 18px;
+    padding: 6px;
+}
+
+h3 {
+}
+
+.page-header .tagline {
+    font-size: 26px;
+}
