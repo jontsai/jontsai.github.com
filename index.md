@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-tagline: hello world!
+tagline: echo "hello world!"
 ---
 {% include JB/setup %}
 

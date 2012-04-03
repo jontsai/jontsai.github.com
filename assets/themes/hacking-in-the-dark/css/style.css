@@ -19,10 +19,19 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
     font-size: 18px;
 }
 
+.hackinthedark a {
+    color: #107010;
+}
+
+.hackinthedark a:active,
+.hackinthedark a:hover {
+    color: #18a718;
+}
+
 .hackinthedark .brand,
-.hackinthedark .brand a,
-.hackinthedark .brand a:active,
-.hackinthedark .brand a:hover {
+.hackinthedark a.brand,
+.hackinthedark a.brand:active,
+.hackinthedark a.brand:hover {
     color: #fff;
     text-decoration: none;
     font-family: Courier New, serif;
@@ -36,13 +45,9 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
     font-family: "Palatino Linotype", Palatino, serif;
 }
 
-.hackinthedark a {
-    color: #107010;
-}
-
-.hackinthedark a:active,
-.hackinthedark a:hover {
-    color: #18a718;
+.hackinthedark .content-title .tagline {
+    font-style: normal;
+    font-family: Courier New, serif;
 }
 
 /*
@@ -54,6 +59,16 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 }
 */
 
+.hackinthedark .navlinks,
+.hackinthedark .footerlinks,
+.hackinthedark #footer {
+    font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+}
+
+.hackinthedark .footerlinks img {
+    vertical-align: middle;
+}
+
 .hackinthedark h1 {
     font-weight: bold;
 }
@@ -61,7 +76,15 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 .hackinthedark h1,
 .hackinthedark h2,
 .hackinthedark h3,
-.hackinthedark .navlinks,
-.hackinthedark .footerlinks {
+.hackinthedark h4 {
+    font-weight: bold;
     font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+}
+
+.hackinthedark strong {
+    font-weight: bold;
+}
+
+.hackinthedark li {
+    list-style-type: disc;
 }

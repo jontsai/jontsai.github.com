@@ -31,51 +31,13 @@
   <body class="hackinthedark">
 
     <div id="wrap">
-      {% if site.author.github %}
-      <a href="http://github.com/{{ site.author.github }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub" /></a>
-      {% endif %}
-      <div id="header">
-          <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a><br/>
-	  {% if site.tagline %}
-	  <div class="tagline">
-	    "{{ site.tagline }}"
-	  </div>
-	  {% endif %}
-	  <div id="navbar">
-	    <ul class="navlinks">
-	      {% if site.navlinks %}
-	      {% assign pages_list = site.navlinks %}
-	      {% else %}
-	      {% assign pages_list = site.pages %}
-	      {% assign group = 'navigation' %}
-	      {% endif %}
-	      {% include JB/pages_list %}
-	    </ul>
-	  </div>
-      </div>
+      {% include themes/hacking-in-the-dark/header.html %}
       <div id="main">
 	<div class="centered-box">
           {{ content }}
 	</div>
       </div>
     </div>
-    <footer>
-      <div id="footer">
-	<p>
-	  <ul class="footerlinks">
-	    {% if site.footerlinks %}
-	    {% assign pages_list = site.footerlinks %}
-	    {% else %}
-	    {% assign pages_list = site.pages %}
-	    {% assign group = 'navigation' %}
-	    {% endif %}
-	    {% include JB/pages_list %}
-	  </ul>
-	</p>
-        <p>&copy; {{ site.author.name }} 2012. Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-        </p>
-      </div>
-    </footer>
-    {% include JB/analytics %}
+    {% include themes/hacking-in-the-dark/footer.html %}
   </body>
 </html>

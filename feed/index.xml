@@ -4,11 +4,11 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>jontsai@github</title>
- <link href="http://github.jonathantsai.com/feed/" rel="self"/>
- <link href="http://github.jonathantsai.com/"/>
+ <title>jonathan tsai</title>
+ <link href="http://www.jonathantsai.com/feed/" rel="self"/>
+ <link href="http://www.jonathantsai.com/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://github.jonathantsai.com/</id>
+ <id>http://www.jonathantsai.com/</id>
  <author>
    <name>Jonathan Tsai</name>
    <email>akajontsai-devel@yahoo.com</email>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://github.jonathantsai.com{{ post.url }}"/>
+   <link href="http://www.jonathantsai.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://github.jonathantsai.com{{ post.id }}</id>
+   <id>http://www.jonathantsai.com{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
