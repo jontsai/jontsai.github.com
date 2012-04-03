@@ -41,11 +41,19 @@ body {
     margin: auto;
 }
 
-.page-header {
-    background-color: #df8020;
-    border: 3px solid #ffc40c;
+.page-header,
+.page-content h1 {
+    border: 3px solid;
+    margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 12px
+}
+
+.page-content h2 {
+    border: 3px solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 12px;
 }
 
 /* dependent structural css */
@@ -114,4 +122,17 @@ p {
 
 li {
     margin-left: 1em;
+}
+
+.pagination {
+    width: 100%;
+    text-align: center;
+}
+
+.pagination .prev {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
 }

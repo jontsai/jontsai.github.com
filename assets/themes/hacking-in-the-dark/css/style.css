@@ -15,7 +15,6 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 .hackinthedark #footer {
     background-color: #181818;
     color: #fff;
-    font-family: "Palatino Linotype", Palatino, serif;
     font-size: 18px;
 }
 
@@ -34,7 +33,6 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 .hackinthedark a.brand:hover {
     color: #fff;
     text-decoration: none;
-    font-family: Courier New, serif;
     font-weight: bold;
     font-size: 72px;
     letter-spacing: 10px;
@@ -42,12 +40,10 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 
 .hackinthedark .tagline {
     font-style: italic;
-    font-family: "Palatino Linotype", Palatino, serif;
 }
 
 .hackinthedark .content-title .tagline {
     font-style: normal;
-    font-family: Courier New, serif;
 }
 
 /*
@@ -59,18 +55,8 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 }
 */
 
-.hackinthedark .navlinks,
-.hackinthedark .footerlinks,
-.hackinthedark #footer {
-    font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
-}
-
 .hackinthedark .footerlinks img {
     vertical-align: middle;
-}
-
-.hackinthedark h1 {
-    font-weight: bold;
 }
 
 .hackinthedark h1,
@@ -78,7 +64,16 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 .hackinthedark h3,
 .hackinthedark h4 {
     font-weight: bold;
-    font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+}
+
+.hackinthedark .page-header,
+.hackinthedark .page-content h1 {
+    background-color: #df8020;
+    border-color: #ffc40c;
+}
+
+.hackinthedark .page-content h2 {
+    border-color: #ffc40c;
 }
 
 .hackinthedark strong {
@@ -87,4 +82,41 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
 
 .hackinthedark li {
     list-style-type: disc;
+}
+
+.hackinthedark .pagination li {
+    display: inline;
+    list-style-type: none;
+}
+
+/* fonts */
+
+.hackinthedark .navlinks,
+.hackinthedark .footerlinks,
+.hackinthedark #footer,
+.hackinthedark .pagination,
+.hackinthedark h1,
+.hackinthedark h2,
+.hackinthedark h3,
+.hackinthedark h4,
+.hackinthedark #disqus_thread a,
+.hackinthedark #dsq-sort-by {
+    font-family: "Lucida Sans Unicode", "Lucida Grand", sans-serif;
+}
+
+.hackinthedark,
+.hackinthedark #wrap,
+.hackinthedark #footer,
+.hackinthedark .tagline,
+.hackinthedark #dsq-comments,
+.hackinthedark #dsq-comments a {
+    font-family: "Palatino Linotype", Palatino, serif;
+}
+
+.hackinthedark .brand,
+.hackinthedark a.brand,
+.hackinthedark a.brand:active,
+.hackinthedark a.brand:hover,
+.hackinthedark .content-title .tagline {
+    font-family: Courier New, serif;
 }

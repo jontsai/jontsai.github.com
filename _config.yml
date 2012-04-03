@@ -25,27 +25,27 @@ author :
 
 navlinks :
   -
-    url : '/'
+    url : '/index.html'
     title : Home
   -
-    url : '/about'
+    url : '/about.html'
     title : About
   -
-    url : '/code'
+    url : '/code.html'
     title : Code
 
 footerlinks:
   -
-    url : '/pages'
+    url : '/pages.html'
     title : Pages
   -
-    url : '/categories'
+    url : '/categories.html'
     title : Categories
   -
-    url : '/tags'
+    url : '/tags.html'
     title : Tags
   -
-    url : '/archive'
+    url : '/archive.html'
     title : Archive
 
 # The production_url is only used when full-domain names are needed
