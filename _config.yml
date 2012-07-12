@@ -50,10 +50,25 @@ footerlinks:
 
 credits :
   -
-    pretext : ''
+    pre_text : 'Powered by'
+    url : 'https://github.com/mojombo/jekyll'
+    link_text : Jekyll
+  -
+    pre_text : 'with help from'
+    url : 'http://jekyllbootstrap.com'
+    link_text : 'Jekyll Bootstrap'
+    link_title : 'The Definitive Jekyll Blogging Framework'
+    post_text : '.'
+  -
+    pre_text : ''
+    url : http://www.linode.com/?r=65762fd9ef89c62a08eddbb4c641c9b9a5415ba9
+    link_text : 'Linode'
+    post_text : '.'
+  -
+    pre_text : ''
     url : 'http://freedns.afraid.org/'
-    linktext : FreeDNS
-    postext : '.'
+    link_text : FreeDNS
+    post_text : '.'
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
