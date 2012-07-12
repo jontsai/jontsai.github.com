@@ -1,0 +1,13 @@
+{% if site.credits %}
+  {% for node in site.credits %}
+    {% if node.pretext %}
+      {{ node.pretext }}
+    {% endif %}
+    {% if node.url and node.linktext %}
+      <a href="{{ node.url }}" target="_blank">{{ node.linktext }}</a>
+    {% endif %}
+    {% if node.posttext %}
+      {{ node.posttext }}
+    {% endif %}
+  {% endfor %}
+{% endif %}
