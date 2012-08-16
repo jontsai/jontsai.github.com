@@ -69,6 +69,11 @@ credits :
     url : 'http://freedns.afraid.org/'
     link_text : FreeDNS
     post_text : '.'
+  -
+    pre_text : ''
+    url : 'http://sendgrid.tellapal.com/a/clk/6qjSH'
+    link_text : SendGrid
+    post_text : '.'
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
