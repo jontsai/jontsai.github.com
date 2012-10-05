@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Brogrammer"
-description: "brogrammer = bro + programmer"
+description: "Definition of brogrammer"
+tagline: "brogrammer = bro + programmer"
 category: 
 tags: [brogrammer,geek,comedy,culture]
 ---

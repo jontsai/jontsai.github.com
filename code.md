@@ -2,7 +2,7 @@
 layout: page
 title: "Code"
 tagline: "M-x butterfly"
-description: "Code and stuff"
+description: "Open source code and other tech stuff being worked on by Jonathan Tsai"
 ---
 {% include JB/setup %}
 

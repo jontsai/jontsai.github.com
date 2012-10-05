@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Ubuntu'd out"
-description: "add partitions boot swap home"
+description: "A Ubuntu-only setup"
+tagline: "add partitions boot swap home"
 category: 
 tags: [computers,ubuntu]
 ---
