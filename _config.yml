@@ -32,6 +32,9 @@ navlinks :
     url : '/about.html'
     title : About
   -
+    url : '/archive.html'
+    title : Blog
+  -
     url : '/code.html'
     title : Code
 

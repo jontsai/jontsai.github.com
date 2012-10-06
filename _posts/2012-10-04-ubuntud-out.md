@@ -12,7 +12,7 @@ Last night, I made the best decision of my computing life, ever.
 
 <h3>Old Setup:</h3>
 - Two desktop machines under my desk, two 24" LCD monitors, controlled by one keyboard and mouse via [Synergy](http://synergy-foss.org/)
-- Main computer was Windows XP 32-bit Core2 Quad 8300 4GB RAM (2.8GB usable after OS and video card reserved)
+- Main computer was Windows XP 32-bit Core2 Quad 8200 4GB RAM (2.8GB usable after OS and video card reserved)
 
   - Primary uses were general browsing, word processing, gaming (Starcraft 2, WoW, Diablo 3), organizing and uploading photos (Picasa + Flickr), IE-only testing, some    coding
 
@@ -25,7 +25,7 @@ Last night, I made the best decision of my computing life, ever.
 <h3>Transition to New Setup:</h3>
 - Transferred the VMs onto my main computer--turns out that I really only need 2 of the 4.
 
-  -  The problem I had before was that the Core2 Quad 8300 doesn't have Virtualization Technology enabled, so it can't emulate 64-bit VMs even if the host machine is 64-bit, so I had to run it on the Core2 Quad 6600. Now, I only need 2 32-bit VMs that will run fine on the C2Q 8300.
+  -  The problem I had before was that the Core2 Quad 8200 doesn't have Virtualization Technology enabled, so it can't emulate 64-bit VMs even if the host machine is 64-bit, so I had to run it on the Core2 Quad 6600. Now, I only need 2 32-bit VMs that will run fine on the C2Q 8200.
 
 - Decommissioned the Ubuntu 12.04 64-bit, pulled out 2x2GB and stuck it in the main computer for 8GB RAM total
 - Install Ubuntu 12.04 LTS 64-bit on the main computer, can still dual-boot into Windows if I want to
