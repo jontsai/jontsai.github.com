@@ -4,7 +4,7 @@ title: "Brogrammer"
 description: "Definition of brogrammer"
 tagline: "brogrammer = bro + programmer"
 category: 
-tags: [brogrammer,geek,comedy,culture]
+tags: [brogrammer, geek, humor, culture]
 ---
 {% include JB/setup %}
 

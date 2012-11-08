@@ -10,5 +10,8 @@ I'm newer to open-sourcing projects of my own on GitHub, so it'll take me some t
 
 Projects worth mentioning:
 
-* [Exaile-HTTP-Server](https://github.com/jontsai/Exaile-HTTP-Server)
-* [js-calendar-widget](https://github.com/jontsai/js-calendar-widget)
+* [Exaile-HTTP-Server](https://github.com/jontsai/Exaile-HTTP-Server) - Like iTunes remote, before iTunes remote existed
+* [js-calendar-widget](https://github.com/jontsai/js-calendar-widget) - A basic JS calendar widget
+* [jekyll-theme-hacking-in-the-dark](https://github.com/jontsai/jekyll-theme-hacking-in-the-dark) - Jekyll theme used by this site
+* [ubuntu-desktop-bootstrap](https://github.com/jontsai/ubuntu-desktop-bootstrap)
+* [ubuntu-server-bootstrap](https://github.com/jontsai/ubuntu-server-bootstrap)
