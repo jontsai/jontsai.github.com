@@ -4,7 +4,7 @@ title: "Ubuntu'd out"
 description: "A Ubuntu-only setup"
 tagline: "add partitions boot swap home"
 category: 
-tags: [computers,ubuntu]
+tags: [setup, ubuntu]
 ---
 {% include JB/setup %}
 
