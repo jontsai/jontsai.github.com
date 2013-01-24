@@ -3,8 +3,8 @@ layout: post
 title: "Ubuntu'd out"
 description: "A Ubuntu-only setup"
 tagline: "add partitions boot swap home"
-category: 
-tags: [setup, ubuntu]
+category: technology
+tags: [computers,ubuntu]
 ---
 {% include JB/setup %}
 

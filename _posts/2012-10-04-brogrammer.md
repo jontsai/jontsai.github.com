@@ -3,8 +3,8 @@ layout: post
 title: "Brogrammer"
 description: "Definition of brogrammer"
 tagline: "brogrammer = bro + programmer"
-category: 
-tags: [brogrammer, geek, humor, culture]
+category: technology
+tags: [brogrammer,geek,comedy,culture]
 ---
 {% include JB/setup %}
 
