@@ -13,3 +13,5 @@ On Sunday, February 3, 2013 (Super Bowl Sunday), Domino's Pizza disabled ShopRun
 Coincidence? Sneaky Domino's. I didn't think to take a screenshot at the time, though. Too bad!
 
 <a href="http://www.flickr.com/photos/jontsai8601/8449740950/" title="Domino's ShopRunner Flub by jontsai8601, on Flickr"><img src="http://farm9.staticflickr.com/8503/8449740950_420b125ffc.jpg" width="500" height="325" alt="Domino's ShopRunner Flub"></a>
+
+Let's see what [sharing](https://twitter.com/jontsai/status/298995838238203905) to [Twitter](https://twitter.com/jontsai/status/298996999091519488) yields...
