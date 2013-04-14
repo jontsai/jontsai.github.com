@@ -1,0 +1,2 @@
+compile:
+	cd assets/ && make
