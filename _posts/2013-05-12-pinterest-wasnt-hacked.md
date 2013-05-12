@@ -14,17 +14,17 @@ Seriously though, I messed up in my [previous blog post](/2013/05/11/aws-ec2-sec
 Thankfully, [Jon Jenkins](https://twitter.com/jonjenk) from Pinterest did contact me:
 
 > Hi Jon,
-> 
+>
 > I lead the engineering team at Pinterest.  I saw your blog post you wrote about Pinterest security.
-> 
+>
 > <http://www.jontsai.com/2013/05/11/aws-ec2-security-vulnerability-and-pinterest-hacked/>
-> 
+>
 > For the record the site you found is not one that is associated with Pinterest in any way.
-> 
+>
 > It appears that you most likely found a command interface for a Pinterest spam net.  We have systems that detect and mitigate the impact of these spam nets.  It would be convenient if you could pass along the addresses and passwords you obtained so that we can validate our spam detection systems are picking up these accounts.
-> 
+>
 > Thanks,
-> 
+>
 > Jon Jenkins
 
 And my response:
@@ -51,10 +51,18 @@ And my response:
 
 > jontsai
 
+Jon's response to my response:
+
+> Thanks for passing along the email addresses.  It's always useful to get a known bad set of accounts to verify our classifiers are working as intended.
+>
+> I was planning to write a blog post pointing out some of the problems in your original post.  However, if you are going to correct things that might be good enough.
+>
+> Regarding the specific claims you made in the original post: 1) We salt and encrypt all the passwords in our systems; 2) Our admin servers are protected in a number of ways in addition to those you suggest in your second point, 3) Regarding your third point we use more than just passwords to restrict access to our admin applications.
+
 To everyone who made comments (constructive and otherwise) on the [original post](/2013/05/11/aws-ec2-security-vulnerability-and-pinterest-hacked/) and on [Hacker News](https://news.ycombinator.com/item?id=5689821), thanks. To the critics and the snide commenters, thanks for making me laugh at my own mistakes. I'm interested in learning about what others would have done differently if they were in my situation. Should I have spent more time collecting data about the spam C&C? What kinds of data?
 
-What kinds of action can be taken against spammers like these? Is it worth having lawyers issues cease & decist letters and takedowns to the owners of those domains, knowing they can just as easily pop up in more places?
+What kinds of action can be taken against spammers like these? Is it worth having lawyers issue cease & decist letters and takedowns to the owners of those domains, knowing they can just as easily pop up in more places?
 
-I certainly don't have the time and resources to proactively fight against spammers, but I was hoping that Pinterest and AWS does. Also, this was a good reminder (similar to things I've heard in a security talk a few years ago by [Billy Rios](http://xs-sniper.com/blog/)) that all the spammers and malicious hackers out there are just regular programmers like you and me. They aren't necessarily super geniuses, they use pretty much the same languages and tools we do, and as all humans do, they make mistakes (like letting anyone with the IP address access the C&C).
+I certainly don't have the time and resources (and motivation) to proactively fight against spammers, but I was hoping that Pinterest and AWS might. Also, this was a good reminder (similar to things I've heard in a security talk a few years ago by [Billy Rios](http://xs-sniper.com/blog/)) that all the spammers and malicious hackers out there are just regular programmers like you and me. They aren't necessarily super geniuses, they use pretty much the same languages and tools we do, and as all humans do, they make mistakes (like letting anyone with the IP address access the C&C).
 
 It would also be interesting to see Amazon improve the way they are currently giving out Elastic IPs. AWS probably shouldn't reassign recently released Elastic IP addresses and delay recycling for as long as possible, like how telecom companies don't reassign discarded phone numbers until 3-6 months afterward. They could use an LRU list for assigning Elastic IPs out of regions--unless Elastic IPs really are that scarce a resource in high demand that even an LRU implementation would cause an Elastic IP to effectively get reassigned right away?
