@@ -18,6 +18,8 @@ This is where you see t3h codes. (Also see: [previously written introduction](/p
 
 ## Other Projects, Startups, Consulting Work
 
-* [Wubyu](http://wubyu.com)
+* [Talentral](http://talentral.com) - The end of Resume as we know it.
+* [Wubyu](http://wubyu.com) - Play OhSnap! the photo charades game.
+* [Pkkup](http://pkkup.com) - Find and organize pickup games.
 * [KeBuMe] (http://kebu.me)
 * [The Gaw Group](http://thegawgroup.com)
