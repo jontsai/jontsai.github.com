@@ -1,2 +1,5 @@
 compile:
-	sh compile.sh
+	bash compile.sh
+
+compile_all:
+	bash compile.sh -a
