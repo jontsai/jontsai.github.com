@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Home
+description: "Home page of Jonathan Tsai"
 tagline: echo "hello world!"
 ---
 {% include JB/setup %}
