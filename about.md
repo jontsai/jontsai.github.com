@@ -18,7 +18,7 @@ I'm <a href="http://jands2011.com" target="_blank">married to Shannon</a>, my be
 
 As a <a href="http://talentral.com/profile/jontsai" target="_blank">software-hacker-generalist-ninja-entrepreneur</a> by skill/trade/training who graduated from Berkeley CS, I'm incredibly lazy and diligent at the same time--which forces me to be creative and automate things. For me, crafting software is a union of right-brain <strong>and</strong> left-brain activity--an artistic pursuit melded with deep technical analysis, resulting in pure elegance.
 
-I really enjoy <a href="http://pkkup.com" target="_blank">basketball</a>, swimming, cycling, <a href="https://soundcloud.com/jontsai" target="_blank">music</a>, <a href="http://flickr.com/jontsai8601" target="_blank">photography</a>, good writing, and learning to speak different languages with an accurate pronunciation.
+I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basketball</a>, swimming, cycling, <a href="https://soundcloud.com/jontsai" target="_blank">music</a>, <a href="http://flickr.com/jontsai8601" target="_blank">photography</a>, good writing, and learning to speak different languages with an accurate pronunciation.
 
 ## Links ##
 
