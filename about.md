@@ -23,6 +23,7 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
 ## Links ##
 
 * Talentral: <http://talentral.com/profile/jontsai>
+* Cal: <http://cal.berkeley.edu/jontsai>
 * About.me: <http://about.me/{{ site.author.aboutme }}>
 * LinkedIn: <http://linkedin.com/in/jontsai>
 * Twitter: <http://twitter.com/jontsai>
