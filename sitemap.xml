@@ -8,7 +8,7 @@ title : Sitemap
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-{% for page in site.page %}
+{% for page in site.pages %}
 <url>
   <loc>{{ site.production_url }}{{ page.url }}</loc>
   <priority>1.00</priority>
