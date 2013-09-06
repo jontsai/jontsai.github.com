@@ -41,6 +41,9 @@ navlinks :
   -
     url : '/code.html'
     title : Code
+  -
+    url : '/likes.html'
+    title : Likes
 
 footerlinks:
   -
