@@ -1,0 +1,8 @@
+---
+layout: nil
+title : Bing Site Auth
+---
+<?xml version="1.0"?>
+<users>
+        <user>{{ site.JB.webmaster.bing.site_auth }}</user>
+</users>
