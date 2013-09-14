@@ -31,3 +31,4 @@ IRC channels where I might hang, in no particular order:
 * `#yui` (<http://yuilibrary.com/>)
 * `#fabric` (<https://fabric.readthedocs.org/>)
 * `#cyanogenmod`, `#cyanogenmod-dev` (<http://wiki.cyanogenmod.org/w/CM_IRC_channels>)
+* `#python-social-auth` (<https://github.com/omab/python-social-auth>)
