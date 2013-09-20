@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finally! A mobile school for engineers"
-description: ""
+description: "A mobile school for engineers by CodePath"
 category: 
 tags: [CodePath,Android,learning]
 ---
