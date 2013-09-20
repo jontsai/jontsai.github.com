@@ -1,12 +1,19 @@
+# locally generated
 _site/*
+
+# theme packages, submodules
 _theme_packages/*
 
+# emacs backup files
 *~
 
+# Mac filesystem meta
 Thumbs.db
 .DS_Store
 
 !.gitkeep
 
+# Ruby stuff
 .rbenv-version
 .rvmrc
+Gemfile.lock
