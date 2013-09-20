@@ -23,10 +23,11 @@ I'm a co-founder of CodePath, a startup that runs iOS and Android training progr
 We're offering the same training program to engineers in the bay area for free.  It's a project-based course, meets twice a week for 6 weeks, and the next class begins on October 2nd (another one starts in January).  It's an intensive program, but we've seen great results with it.
  
 We're currently accepting engineers with a technical degree OR at least two years of object-oriented programming experience.  If you're interested, sign up here:
-Android class, starting October 2
-Android class, starting January 15
-iOS class, starting October 2
-iOS class, starting January 15
+* [Android class, starting October 2](https://www.surveymonkey.com/s/androidbootcamp2)
+* [Android class, starting January 15](https://www.surveymonkey.com/s/jan_android_bootcamp)
+* [iOS class, starting October 2](https://www.surveymonkey.com/s/mobileiosbootcamp)
+* [iOS class, starting January 15](https://www.surveymonkey.com/s/jan_ios_bootcamp)
+
 Please forward to any engineers or mailing lists that might be appropriate, additional details below.
  
 Tim
