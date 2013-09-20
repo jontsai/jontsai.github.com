@@ -14,12 +14,12 @@ This site has keyboard shortcuts (press `?`) and a web console (press `` ` ``). 
 
 Thanks for stopping by!
 
-{% comment %}
-<h2>Blog Posts</h2>
+<h2>Recent Blog Posts</h2>
 
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% if forloop.index0 < 5 %}
+  <li><span>{{ post.date | date: '%Y-%m-%d' }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endif %}
   {% endfor %}
 </ul>
-{% endcomment %}
