@@ -1,17 +1,20 @@
 ---
 layout: page
 title: Home
-description: "Home page of Jonathan Tsai"
-tagline: echo "hello world!"
+description: "Home page of Jonathan Tsai, also known as jontsai or jontsai8601"
+tagline: echo "hello internet!"
 ---
 {% include JB/setup %}
 
-I should put something here.
+You've arrived at the website of Jonathan Tsai.
 
-Here's a cool video.
+If you're here, you're probably trying to learn more [about](about.html) me, or read some of my [blog entries](blog).
 
-<iframe width="420" height="315" src="http://www.youtube.com/embed/fNF4siu5vAo" frameborder="0"> </iframe>
+This site has keyboard shortcuts (press `?`) and a web console (press `` ` ``). They're pretty gimmicky features, but I programmed them just for fun.
 
+Thanks for stopping by!
+
+{% comment %}
 <h2>Blog Posts</h2>
 
 <ul class="posts">
@@ -19,3 +22,4 @@ Here's a cool video.
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+{% endcomment %}
