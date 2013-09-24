@@ -1,8 +1,7 @@
-# locally generated
-_site/*
-
-# theme packages, submodules
-_theme_packages/*
+# locally generated Jekyll site
+_site/
+# Jekyll theme packages, submodules
+_theme_packages/
 
 # emacs backup files
 *~
