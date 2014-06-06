@@ -7,3 +7,8 @@
 {% if site.author.stripe %}
 <script src="//checkout.stripe.com/checkout.js"></script>
 {% endif %}
+
+<script>
+var GRAVATAR_IMG = '{% if site.author.gravatar %}http://www.gravatar.com/avatar/{{ site.author.gravatar }}{% endif %}';
+var STRIPE_KEY = 'pk_test_JfDYndgr9Yypyh8QMEfqS55P';
+</script>

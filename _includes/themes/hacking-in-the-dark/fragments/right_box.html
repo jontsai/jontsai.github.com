@@ -8,7 +8,12 @@
     <br/>
     {% include themes/hacking-in-the-dark/fragments/social/flattr.html %}
   </div>
-
+  <br/>
+  {% if site.author.donate_url %}
+  <a href="{{ site.author.donate_url }}" id="button_stripe_donate" class="pure-button pure-button-primary" target="_blank">
+    Make a Donation
+  </a>
+  {% endif %}
   {% if nil and site.author.twitter %}
   {% include themes/hacking-in-the-dark/fragments/recent_tweets.html %}
   {% endif %}
