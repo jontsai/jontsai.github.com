@@ -20,11 +20,12 @@ This is where you see t3h codes. (Also see: [previously written introduction](/p
 
 ## Other Projects, Startups, Consulting Work ##
 
-* [Talentral](http://talentral.com) - The end of Resume as we know it.
+* [ZippyApp](http://zippyapp.com) - Marketplace for hourly jobs and the Common Employment Application accepted at a growing number of businesses.
+* [Talentral](http://talentral.com) - Career management and rich media work portfolios.
 * [Wubyu](http://wubyu.com) - Play OhSnap! the photo charades game.
 * [Pkkup](http://pkkup.com) - Find and organize pickup games.
-* [KeBuMe] (http://kebu.me)
-* [The Gaw Group](http://thegawgroup.com)
+* [Kebume](http://kebu.me) - My software consulting company
+* [Gaw \| Poe LLP](http://gawpoe.com) (formerly [The Gaw Group](http://thegawgroup.com))
 
 ## IRC Channels ##
 
