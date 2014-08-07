@@ -92,10 +92,12 @@ Heading Border & Trim - "Caution Orange" (#ffc40c)
   font-style: italic;
   font-family: "Palatino Linotype", Palatino, serif;
 }
+.hackinthedark #main #left_box,
 .hackinthedark #main #right_box {
   border-color: #333333;
   transition: border-color 1.5s;
 }
+.hackinthedark #main #left_box:hover,
 .hackinthedark #main #right_box:hover {
   border-color: #ffffff;
 }
