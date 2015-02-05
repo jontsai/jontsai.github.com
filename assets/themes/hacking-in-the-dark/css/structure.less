@@ -36,11 +36,15 @@ body {
     @side-margin-content-z-index: 10;
     #left_box,
     #right_box {
-        position: fixed;
-        margin: 20px;
+        width: @sidebox-width;
+        margin: 10px auto;
         padding: 20px;
         border: 2px solid;
         z-index: 10;
+        &.below-fold {
+            position: fixed;
+            top: 0px;
+        }
     }
 }
 

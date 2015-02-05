@@ -41,6 +41,10 @@ author :
   donate_url : http://kebu.me/donate
 copyright_year: "2012-2015"
 
+widgets :
+  sidebox :
+    max_width : 220
+
 analytics :
   google :
     tracking_id : 'UA-30424103-1'

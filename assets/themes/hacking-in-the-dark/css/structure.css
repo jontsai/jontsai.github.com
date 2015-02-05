@@ -1,3 +1,6 @@
+/* dimensions */
+/* widgets */
+/* transition durations */
 body {
   height: 100%;
   width: 100%;
@@ -25,11 +28,16 @@ body {
 }
 #main #left_box,
 #main #right_box {
-  position: fixed;
-  margin: 20px;
+  width: 220px;
+  margin: 10px auto;
   padding: 20px;
   border: 2px solid;
   z-index: 10;
+}
+#main #left_box.below-fold,
+#main #right_box.below-fold {
+  position: fixed;
+  top: 0px;
 }
 .page-header-base {
   border: 3px solid;
