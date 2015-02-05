@@ -22,13 +22,15 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
 
 ## Links ##
 
-* Talentral: <http://talentral.com/profile/jontsai>
-* Cal: <http://cal.berkeley.edu/jontsai>
+* Talentral: <http://talentral.com/profile/{{ site.author.talentral }}>
+* Cal: <http://cal.berkeley.edu/{{ site.author.cal }}>
 * About.me: <http://about.me/{{ site.author.aboutme }}>
-* LinkedIn: <http://linkedin.com/in/jontsai>
-* Twitter: <http://twitter.com/jontsai>
-* Facebook: <http://facebook.com/jontsai>
-* Crunchbase: <http://crunchbase.com/person/jonathan-tsai>
+* LinkedIn: <http://linkedin.com/in/{{ site.author.linkedin }}>
+* Twitter: <http://twitter.com/{{ site.author.twitter }}>
+* Facebook: <http://facebook.com/{{ site.author.facebook }}>
+* Flickr: <http://flickr.com/{{ site.author.flickr }}>
+* Crunchbase: <http://crunchbase.com/person/{{ site.author.crunchbase }}>
+* AngelList: <https://angel.co/{{ site.author.angellist }}>
 
 {% comment %}
 {% if site.author.aboutme %}
