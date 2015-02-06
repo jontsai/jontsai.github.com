@@ -31,6 +31,12 @@ My favorite retailer, by and large, is Amazon. There is where I buy everything f
 
 {% include fragments/likes/books.html %}
 
+## Tech Job Search ##
+
+* <a href="http://join.hired.com/x/q98CBt">Hired</a>
+  Get job offers from several companies at once!  
+  Participate in 1-week auctions and have your profile be seen by thousands of companies.
+
 {% comment %}
 ## Gadgets ##
 {% endcomment %}
