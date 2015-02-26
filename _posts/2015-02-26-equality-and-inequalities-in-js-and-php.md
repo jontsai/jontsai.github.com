@@ -7,7 +7,7 @@ tags: [javascript,php,programming]
 ---
 {% include JB/setup %}
 
-It's 2015, and from time to time I still see a lot of == peppered throughout codebases that I work with, and just wanted to share a few posts that might change your mind =)
+It's 2015, and from time to time I still see a lot of `==` peppered throughout codebases that I work with, and just wanted to share a few posts that might change your mind =)
 
 **tl;dr;**
 
