@@ -24,6 +24,7 @@ It's a fairly straightforward project that had a few requirements/constraints as
 The result:
 
 - Written in BASH/shell script (my favorite shell)
+- Even uses the conscientious `#!/usr/bin/env bash` shebang directive
 - Creates a symlink in `/etc/cron.daily` -- probably won't work for every system, but at least was available on my webserver and others that I've used in the past
 - The script just appends a date string to a `.streak` file (hey, a new convention!) and `git commit`s/`git push`es
 - Added in the `.editorconfig` and `.travis.yml` goodies
