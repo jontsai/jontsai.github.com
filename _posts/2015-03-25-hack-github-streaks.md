@@ -33,3 +33,5 @@ The result:
 So, here you go internet, have at it: [`github-streak`](https://github.com/jontsai/github-streak)
 
 Show some star/fork love. Plz thx kbye.
+
+<a href="http://cl.ly/image/1g1L2R241r2l"><img src="https://s3.amazonaws.com/f.cl.ly/items/1N3d1a1D1W1R0C0o1L0i/crappy_streak.png" title="Crappy streaks be gone" style="max-width: 100%;"/></a>
