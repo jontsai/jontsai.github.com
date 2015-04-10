@@ -32,7 +32,7 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
   * Facebook: <http://facebook.com/{{ site.author.facebook }}>
   * Flickr: <http://flickr.com/{{ site.author.flickr }}>
   * Quora: <http://quora.com/{{ site.author.quora }}>
-* Startups & Investing
+* Startups & Entrepreneurship
   * Crunchbase: <http://crunchbase.com/person/{{ site.author.crunchbase }}>
   * AngelList: <https://angel.co/{{ site.author.angellist }}>
 
