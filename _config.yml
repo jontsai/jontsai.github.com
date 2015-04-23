@@ -50,6 +50,9 @@ analytics :
   google :
     tracking_id : 'UA-30424103-1'
     domain : jontsai.com
+  heap:
+    id_prod : 1510850042
+    id_dev : 3204134341
 
 navlinks :
   -
