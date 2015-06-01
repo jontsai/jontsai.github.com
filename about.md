@@ -27,6 +27,7 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
   * LinkedIn: <http://linkedin.com/in/{{ site.author.linkedin }}>
   * Cal: <http://cal.berkeley.edu/{{ site.author.cal }}>
   * About.me: <http://about.me/{{ site.author.aboutme }}>
+  * StackOverflow: <http://stackoverflow.com/users/865091/jontsai>
 * Social Media
   * Twitter: <http://twitter.com/{{ site.author.twitter }}> (my <a href="/tweets.html">favorite Tweets</a>)
   * Facebook: <http://facebook.com/{{ site.author.facebook }}>
@@ -35,6 +36,12 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
 * Startups & Entrepreneurship
   * Crunchbase: <http://crunchbase.com/person/{{ site.author.crunchbase }}>
   * AngelList: <https://angel.co/{{ site.author.angellist }}>
+  * Gust: <https://gust.com/user/e5e36833e312873b5ad8791eff0185a6>
+* Gamer Profiles
+  * Starcraft II: <http://us.battle.net/sc2/en/profile/2730349/1/ChinaPwnsYou/>
+  * World of Warcraft: <http://us.battle.net/wow/en/character/dark-iron/Chunqixle/simple>
+  * Diablo III: <http://us.battle.net/d3/en/profile/chunqixle-1370/hero/25474730>
+  * Twitch.tv: <http://www.twitch.tv/jontsai>
 
 {% comment %}
 {% if site.author.aboutme %}
