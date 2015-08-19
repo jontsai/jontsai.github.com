@@ -54,6 +54,12 @@ analytics :
     id_prod : 1510850042
     id_dev : 3204134341
 
+verifications :
+  alexa : AJSW8CTCdpo3aVsRjhrSGchq_ao
+  bing : 083FDC17F2126892E9A310CDA4132FF0
+  google : DYas6jJv3Pypwbo3Z_pAinZ8AOty5k-dCfCHJ5RateU
+  yandex : 59488bc9c0ce36f3
+
 navlinks :
   -
     url : '/index.html'
