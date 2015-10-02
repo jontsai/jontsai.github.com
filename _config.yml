@@ -16,7 +16,8 @@ paginate_path: "blog/page:num"
 #
 title : 'Jonathan Tsai'
 header_title : 'jon<span class="dark-gray">athan</span>tsai'
-tagline: Also known as jontsai or jontsai8601
+tagline: Do you see a man skilled in his work? He will stand before kings; He will not stand before obscure men.
+tagline_attribution: Proverbs 22:29
 author :
   name : Jonathan Tsai
   email : hello@jontsai.com
