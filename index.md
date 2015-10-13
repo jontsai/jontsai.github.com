@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Home
-description: "Home page of Jonathan Tsai, also known as jontsai or jontsai8601"
+description: "Personal website of Jonathan Tsai, also known as jontsai, Silicon Valley-based software engineer and tech entrepreneur."
 tagline: echo "hello internet!"
 ---
 {% include JB/setup %}
