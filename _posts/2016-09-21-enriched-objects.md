@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Enriched objects"
-description: ""
-category: ""
-tags: [coding, programming, grammar, nomenclature]
+description: "What to name it?"
+category: programming
+tags: [coding,programming,grammar,nomenclature]
 ---
 {% include JB/setup %}
 
