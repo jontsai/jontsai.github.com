@@ -3,7 +3,7 @@ layout: post
 title: "Enriched objects"
 description: ""
 category: ""
-tags: coding,programming,grammar
+tags: [coding, programming, grammar, nomenclature]
 ---
 {% include JB/setup %}
 
