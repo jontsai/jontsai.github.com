@@ -3,12 +3,12 @@ layout: post
 title: "Enriched objects"
 description: "What to name it?"
 category: programming
-tags: [coding,programming,grammar,nomenclature]
+tags: [coding,programming,grammar,nomenclature,Scala,functional programming]
 ---
 {% include JB/setup %}
 
-random: my new favorite coding adjective/word this week/last week is "enriched"
+random: my new favorite coding adjective recently is "enriched"
 
-`(some obj) + (some additional stuffs) = enrichedObj`
+`val enrichedObj = obj ++ someAdditionalStuffs`
 
 reminiscent of / inspired by <https://en.wikipedia.org/wiki/Enriched_uranium>
