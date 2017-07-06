@@ -4,6 +4,7 @@ title: "The Most Valuable Programming Languages to Know for the Future"
 description: ""
 category: "programming"
 tags: [programming, languages, software engineering]
+quora_url: https://www.quora.com/What-are-the-best-programming-languages-to-learn-today/answer/Jonathan-Tsai
 ---
 {% include JB/setup %}
 
@@ -118,3 +119,5 @@ the statistics off the top of my head, but my impression is that the
 above are your programming language *lingua francas*, and most likely
 the highest value in terms of popularity/ubiquity, economic value, and
 utility.
+
+{% include themes/hacking-in-the-dark/fragments/widgets/quora_button.html %}
