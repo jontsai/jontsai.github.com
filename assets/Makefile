@@ -1,5 +1,6 @@
 compile:
-	bash compile.sh
+# 	bash compile.sh
+	cd themes/hacking-in-the-dark && lessc less/combined.less css/combined.css
 
-compile_all:
-	bash compile.sh -a
+compile_all: compile
+# 	bash compile.sh -a
