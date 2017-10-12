@@ -7,7 +7,7 @@ tags: [software engineering,customer success,communication,teams]
 ---
 {% include JB/setup %}
 
-By Jonathan Tsai ([@jontsai](http://twitter.com/jontsai) | https://linkedin.com/in/jontsai)
+By Jonathan Tsai ([@jontsai](http://twitter.com/jontsai) \| <https://linkedin.com/in/jontsai>)
 
 Original Permalink (working Quip doc) : [Communicating with Engineers: How to File Good JIRA Tickets](https://quip.com/bb9rA9Cpmvax)  
 License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
