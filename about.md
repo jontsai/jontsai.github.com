@@ -42,6 +42,7 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
 
 * Software Engineering, Computer Security
   * HackerOne: <https://hackerone.com{{ site.author.hackerone }}>
+  * BugCrowd: <https://bugcrowd.com/{{ site.author.bugcrowd }}>
   * StackOverflow: <https://stackoverflow.com/users/865091/jontsai>
   * StackExchange: <https://stackexchange.com/users/462656/jontsai>
   * StackShare: <https://stackshare.io/{{ site.author.stackshare }}>
