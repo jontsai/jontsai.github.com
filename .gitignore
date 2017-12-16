@@ -15,4 +15,3 @@ Thumbs.db
 # Ruby stuff
 .rbenv-version
 .rvmrc
-Gemfile.lock
