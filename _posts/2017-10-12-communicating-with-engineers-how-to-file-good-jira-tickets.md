@@ -14,6 +14,8 @@ License: [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
 
 *This article was originally written as part of a mini-training for the customer success team at [Iterable](http://iterable.com/) in July 2017. For the most updated version of this article, view the Quip version at the above permalink.*
 
+*Edit: This article also got published on the [GoodAudience Blog](https://blog.goodaudience.com/communicating-with-engineers-how-to-file-good-jira-tickets-f9f38a5a675d).*
+
 ## Purpose
 
 *“Those who fail to learn from history are doomed to repeat it.” - George Santayana*
