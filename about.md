@@ -28,6 +28,7 @@ I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basket
   * Cal: <http://cal.berkeley.edu/{{ site.author.cal }}>
   * About.me: <http://about.me/{{ site.author.aboutme }}>
   * StackOverflow: <http://stackoverflow.com/users/865091/jontsai>
+  * Doodle MeetMe: <https://doodle.com/jontsai>
 
 * Social Media
   * Twitter: <http://twitter.com/{{ site.author.twitter }}> (my <a href="/tweets.html">favorite Tweets</a>)
