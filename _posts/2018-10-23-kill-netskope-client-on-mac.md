@@ -11,6 +11,6 @@ Netskope is a corporate security tool installed on corporate-owned devices that 
 
 For developers, this often poses an inconvenience especially if they need to develop applications that make API calls and HTTP requests to other web services, if the developers are hitting a web service that has not previously been white-listed by the IT department. The IT department may not be in close communication with the engineering teams, and require additional information from the developers in order to configure a new whitelist rule, impacting the ability of engineers to meet deadlines.
 
-**tl;dr;** How to <strikekill</strike> temporarily disable Netskope
+**tl;dr;** How to <strike>kill</strike> temporarily disable Netskope
 
 `sudo launchctl unload /Library/LaunchDaemons/com.netskope.stagentsvc.plist`
