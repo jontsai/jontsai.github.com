@@ -16,7 +16,7 @@ My favorite retailer, by and large, is Amazon. There is where I buy everything f
   Reliable and cost-effective VPS hosting.  
   Alternatives: Rackspace, Amazon S3, Heroku
 
-* <a href="http://www.namecheap.com/?aff=48968" target="_blank">Namecheap</a>
+* <a href="https://affiliate.namecheap.com/?affId=48968" target="_blank">Namecheap</a>
   Simple, no-frills domain name registration.  
   Alternatives: GoDaddy
 
