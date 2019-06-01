@@ -1,0 +1,5 @@
+---
+layout: none
+permalink: .well-known/keybase.txt
+---
+{% include JB/setup %}
