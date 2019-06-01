@@ -6,7 +6,7 @@ This is the code for my personal page, which also serves as my GitHub user page.
 
 ## Links
 
-- http://www.jontsai.com (CNAME for http://jontsai.github.com)
+- https://www.jontsai.com (CNAME for https://jontsai.github.com)
 
 ## Resources
 
