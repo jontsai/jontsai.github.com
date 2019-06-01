@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/jontsai
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.jontsai.com
+  * I am jontsai (https://keybase.io/jontsai) on keybase.
+  * I have a public key ASDmxSpRRSFT5vSN-pL7vjineIuQHhDQZKkXDBIwj_v-_Ao
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120e6c52a51452153e6f48dfa92fbbe38a7788b901e10d064a9170c12308ffbfefc0a",
+      "host": "keybase.io",
+      "kid": "0120e6c52a51452153e6f48dfa92fbbe38a7788b901e10d064a9170c12308ffbfefc0a",
+      "uid": "87352cf3d9c98068de2ee01843a96019",
+      "username": "jontsai"
+    },
+    "merkle_root": {
+      "ctime": 1559382134,
+      "hash": "604b0008b39a3bc57a495551ba603f05c3d2c8ed79354f850df5c6f02484f001206f1b404fb7e30ed793ff05614845a20bc9727f8f2733fb5a4442f3a995bdb3",
+      "hash_meta": "6b4a79ded1a20dd1da674668d16e4a8b65c583ed157dcebdffe78ca212e5c8f0",
+      "seqno": 5487408
+    },
+    "service": {
+      "entropy": "8EI9tX3j7n0IK8QR20wDGmUu",
+      "hostname": "www.jontsai.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.0.0"
+  },
+  "ctime": 1559382226,
+  "expire_in": 504576000,
+  "prev": "f7eadc319e10721d4446fa9bb76f3e8e920d6ae8bb3795145759f057839067cb",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5sUqUUUhU+b0jfqS+744p3iLkB4Q0GSpFwwSMI/7/vwKp3BheWxvYWTESpcCCMQg9+rcMZ4Qch1ERvqbt28+jpINaui7N5UUV1nwV4OQZ8vEIEXrniEkTCBeUjRo89GbXu+REJ+S/zp/Fk8hlQv3v5gVAgHCo3NpZ8RAB+UYRN9M3P95Gz+qKue2yWhe96iYnHUZWJChYWuv3tmvjMfVkR51vAAXoV8z0I0NBnQ0+YHoTio0boqYBYZBCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFjjQEgl0+LOvlI/wdnurkScUc6bIJPSSwmVVQ+cQvTio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jontsai
+
+==================================================================
