@@ -1,18 +1,15 @@
-YUI().use(
-    'node',
-    'event',
-function (Y) {
+$(function() {
     /* -------------------------------------------------- */
-    /* YUI "Local" Globals */
+    /* "Local" Globals */
 
     // CSS selectors
 
     // Nodes
-    var main = Y.one('#main');
+    var main = $('#main');
 
     // App variables
 
-    /* End YUI "Local" Globals */
+    /* End "Local" Globals */
     /* -------------------------------------------------- */
 
     // Custom App Functions

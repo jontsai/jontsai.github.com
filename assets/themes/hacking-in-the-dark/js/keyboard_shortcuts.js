@@ -8,22 +8,22 @@ function ascii(c) {
     return charCode;
 }
 
-YUI({
-    modules: {
-        'web-console': {
-            fullpath : '/assets/themes/hacking-in-the-dark/js/web_console.js'
-        }
-    }
-}).use(
-    'node',
-    'event',
-    'event-key',
-    'panel',
-    'dd-plugin',
-    'web-console',
-function (Y) {
+// YUI({
+//     modules: {
+//         'web-console': {
+//             fullpath : '/assets/themes/hacking-in-the-dark/js/web_console.js'
+//         }
+//     }
+// }).use(
+//     'node',
+//     'event',
+//     'event-key',
+//     'panel',
+//     'dd-plugin',
+//     'web-console',
+$(function() {
     /* -------------------------------------------------- */
-    /* YUI "Local" Globals */
+    /* "Local" Globals */
 
     // CSS selectors
     var CSS_ID_KEYBOARD_SHORTCUTS_PANEL = 'keyboard_shortcuts_panel';
@@ -31,7 +31,7 @@ function (Y) {
     var CSS_CLASS_YUI3_WIDGET_BD = 'yui3-widget-bd';
 
     // Nodes
-    var main = Y.one('#main');
+    var main = $('#main');
     var KEYBOARD_SHORTCUTS_HELP_PANEL;
 
     // App variables
@@ -108,7 +108,9 @@ function (Y) {
         'L' : queueAndCheckSequenceTrigger // likes
     }
 
-    KEY_MAP = Y.Node.DOM_EVENTS.key.eventDef.KEY_MAP;
+    KEY_MAP = {};
+
+    //KEY_MAP = Y.Node.DOM_EVENTS.key.eventDef.KEY_MAP;
     for (var keyName in KEYCODES) {
         var keyCode = KEYCODES[keyName];
         KEY_MAP[keyName] = keyCode;
@@ -124,13 +126,14 @@ function (Y) {
         'GL' : function() { window.location = '/likes.html'; },
     };
 
-    /* End YUI "Local" Globals */
+    /* "Local" Globals */
     /* -------------------------------------------------- */
 
     // Custom App Functions
     function getKeyboardShortcutsHelpPanel() {
         if (typeof KEYBOARD_SHORTCUTS_HELP_PANEL === 'undefined') {
-            var panelContent = Y.Node.create(Y.one('#' + CSS_ID_KEYBOARD_SHORTCUTS_PANEL).getHTML());
+            /*
+            var panelContent = Y.Node.create($('#' + CSS_ID_KEYBOARD_SHORTCUTS_PANEL).getHTML());
             var panelCfg = {
                 srcNode : panelContent,
                 width : '50%',
@@ -146,14 +149,15 @@ function (Y) {
                         eventName: 'clickoutside'
                     },
                     {
-                        node: Y.one('document'),
+                        node: $(document),
                         eventName: 'key',
                         keyCode: 'esc'
                     }
                 ]
             };
             var panel = new Y.Panel(panelCfg);
-
+            */
+            var panel = $('#' + CSS_ID_KEYBOARD_SHORTCUTS_PANEL).dialog();
             KEYBOARD_SHORTCUTS_HELP_PANEL = panel;
         }
         return KEYBOARD_SHORTCUTS_HELP_PANEL;
@@ -177,8 +181,8 @@ function (Y) {
     function queueAndCheckSequenceTrigger(keyCode) {
         var letter = char(keyCode);
         PRESSED_SHORTCUT_KEYS_SEQUENCE.push(letter);
-        Y.log('queued ' + letter);
-        Y.log(PRESSED_SHORTCUT_KEYS_SEQUENCE);
+        console.log('queued ' + letter);
+        console.log(PRESSED_SHORTCUT_KEYS_SEQUENCE);
         var sequence = PRESSED_SHORTCUT_KEYS_SEQUENCE.join('');
         var command = SHORTCUT_KEY_SEQUENCE_COMMANDS[sequence];
         if (typeof command !== 'undefined') {
@@ -258,7 +262,7 @@ function (Y) {
             if (keyName.length === 1 && typeof keyName === 'string') {
                 key = ascii(keyName);
             }
-            Y.one(document).delegate('key', handleShortcutKeyPressed, 'down:' + key, 'body');
+            $(document).delegate('key', handleShortcutKeyPressed, 'down:' + key, 'body');
         }
 
         olark('api.box.onExpand', function() { OLARK_EXPANDED = true; });

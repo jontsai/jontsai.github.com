@@ -1,10 +1,6 @@
-YUI().use(
-    'node',
-    'event',
-    'gallery-debounce',
-function (Y) {
+$(function() {
     /* -------------------------------------------------- */
-    /* YUI "Local" Globals */
+    /* "Local" Globals */
 
     // CSS selectors
     var CSS_ID_BUTTON_STRIPE_DONATE = 'button_stripe_donate';
@@ -12,12 +8,12 @@ function (Y) {
     var CSS_CLASS_BELOW_FOLD = 'below-fold';
 
     // Nodes
-    var main = Y.one('#main');
-    var documentBody = Y.one(document.body);
+    var main = $('#main');
+    var documentBody = $(document.body);
 
     // App variables
 
-    /* End YUI "Local" Globals */
+    /* End "Local" Globals */
     /* -------------------------------------------------- */
 
     // Custom App Functions
@@ -32,24 +28,24 @@ function (Y) {
 
     function reflowContent() {
         var scrollY = documentBody.get('docScrollY');
-        var mainY = main.getY();
-        var leftBox = Y.one('#left_box');
-        var rightBox = Y.one('#right_box');
+        var mainY = main.offset().top;
+        var leftBox = $('#left_box');
+        var rightBox = $('#right_box');
         if (scrollY > mainY) {
             // get the current X, which will become the new margin
             // left and right side are mirrored
-            var sideboxMarginLeft = leftBox.getX();
+            var sideboxMarginLeft = leftBox.offset().left;
             leftBox.addClass(CSS_CLASS_BELOW_FOLD);
-            leftBox.setStyle('marginLeft', sideboxMarginLeft);
+            leftBox.css('marginleft', sideboxMarginLeft);
 
             rightBox.addClass(CSS_CLASS_BELOW_FOLD);
-            rightBox.setStyle('marginLeft', sideboxMarginLeft);
+            rightBox.css('margin-left', sideboxMarginLeft);
         } else {
             leftBox.removeClass(CSS_CLASS_BELOW_FOLD);
-            leftBox.setStyle('marginLeft', 'auto');
+            leftBox.css('margin-left', 'auto');
 
             rightBox.removeClass(CSS_CLASS_BELOW_FOLD);
-            rightBox.setStyle('marginLeft', 'auto');
+            rightBox.css('margin-left', 'auto');
         }
     }
 
@@ -62,7 +58,7 @@ function (Y) {
             token: function(token, args) {
                 // Use the token to create the charge with a server-side script.
                 // You can access the token ID with `token.id`
-                Y.log('token: ' + token.id);
+                console.log('token: ' + token.id);
             }
         });
         handler.open({
@@ -74,8 +70,8 @@ function (Y) {
 
     // App Initializers
     function initEventHandlers() {
-        Y.on('resize', Y.debounce(10, handleWindowResized));
-        Y.on('scroll', Y.debounce(10, handleWindowScrolled));
+        $(window).on('resize', $.debounce(10, handleWindowResized));
+        $(window).on('scroll', $.debounce(10, handleWindowScrolled));
         //main.delegate('tap', handleStripeDonateButtonPressed, '#' + CSS_ID_BUTTON_STRIPE_DONATE);
     }
 
