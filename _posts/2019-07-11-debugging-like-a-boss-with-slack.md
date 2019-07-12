@@ -6,6 +6,7 @@ category: "programming"
 tags: [hacks,programming,debugging]
 ---
 {% include JB/setup %}
+*Edit: This article also got published on the [GoodAudience Blog](https://blog.goodaudience.com/debugging-like-a-boss-with-slack-59e711079ddd).*
 
 I've been using `println` debugging since forever. It's the best! It's minimal, is the least surprising form of debugging, and allows you to set-it-and-forget it. I've also used interactive debuggers before, but when `println` debugging techniques are used effectively, I'd argue that step-through interactive debuggers are not necessary at all, and actually slow you down.
 
