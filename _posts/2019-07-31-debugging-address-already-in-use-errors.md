@@ -25,7 +25,7 @@ But, there is a better way.
 
 Let me introduce you to a command:
 
-    `netstat -tulpn`
+    netstat -tulpn
 
 This command will print out the bound network ports on your machine, and which processes and process ids are running them. To free up the port to be used by your development server once again, simply `kill PID`, where `PID` is the process ID.
 
