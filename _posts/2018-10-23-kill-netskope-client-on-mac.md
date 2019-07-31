@@ -2,8 +2,8 @@
 layout: post
 title: "Kill Netskope Client on Mac"
 description: ""
-category: ""
-tags: [GTD, Netskope, security]
+category: "programming"
+tags: [GTD, Netskope, security, Mac]
 ---
 {% include JB/setup %}
 
