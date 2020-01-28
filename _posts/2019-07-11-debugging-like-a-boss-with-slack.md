@@ -36,6 +36,6 @@ Out[5]: (None,)
 
 ![Debugging like a Boss with Slack](https://user-images.githubusercontent.com/422501/61013274-e65e1e00-a336-11e9-90aa-44a6fd1e217c.png "Debugging like a Boss with Slack")
 
-And without further ado, Slack debugging is available here: <https://github.com/hacktoolkit/pyhtk-lite>. (And for Ruby: <https://github.com/hacktoolkit/htk-rb>).
+And without further ado, Slack debugging is available here: <https://github.com/hacktoolkit/python-htk> and <https://github.com/hacktoolkit/pyhtk-lite>. (And for Ruby: <https://github.com/hacktoolkit/htk-rb>).
 
 Love it? Hate it? Please share your thoughts and comments, or even better yet, submit pull requests to make it better!
