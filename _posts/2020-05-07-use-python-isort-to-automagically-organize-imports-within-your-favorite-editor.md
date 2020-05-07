@@ -7,7 +7,7 @@ tags: [tools, Python, isort]
 ---
 {% include JB/setup %}
 
-# tl;dr;
+## tl;dr;
 
 **isort** (**[PyPI](https://pypi.org/project/isort/)** | **[GitHub](https://github.com/timothycrosley/isort)**) is a wonderful tool that will sort imports in Python automagically, so that you no longer have to either a) ignore eye-sores during code reviews, or b) sound like an angry grandparent asking people to sort/organize imports.
 
