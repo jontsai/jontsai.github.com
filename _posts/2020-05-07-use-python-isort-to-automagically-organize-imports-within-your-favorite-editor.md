@@ -19,9 +19,9 @@ If you know your away around the *nix environment, these are the abridged instru
 1. Install the `isort` **plugin** for the **[editor of your choice](https://github.com/timothycrosley/isort/wiki/isort-Plugins)**.
 1. Profit
 
-**NOTE: (Optional but recommended)** Add a `.isort.cfg` file to your HOME directory, so that even you are working on a random script or project that doesn't have one, the powers of `isort are stil available to you.
+**NOTE: (Optional but recommended)** Add a `.isort.cfg` file to your HOME directory, so that even you are working on a random script or project that doesn't have one, the powers of `isort` are still available to you.
 
-## Drudgerous Line-by-Line Instructions (or my setup)
+## Drudgerous Line-by-Line Instructions (or *my setup*)
 
 1. If you don't have one already, create a new system-wide **[Python virtualenv](https://virtualenv.pypa.io/en/stable/)**.
     1. The way I'd do that is to do: `/path/to/bin/python/virtualenv ~/.venv`
