@@ -208,12 +208,16 @@ body {
   -moz-border-radius: 20px 0px 20px 0px;
   border-radius: 20px 0px 20px 0px;
   padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 #main .page .content h2 {
   border: 3px solid;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   border-radius: 5px 5px 5px 5px;
@@ -412,7 +416,7 @@ body {
   transition: opacity 0.8s;
 }
 .hackinthedark #main .page .header .fake-console:hover {
-  opacity: 1.0;
+  opacity: 1;
 }
 .hackinthedark #main .page .header .fake-console .tagline {
   font-weight: bold;
