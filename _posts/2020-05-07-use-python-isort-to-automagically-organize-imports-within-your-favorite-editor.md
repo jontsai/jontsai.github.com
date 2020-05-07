@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Use Python iSort to Automagically Organize Imports within your Favorite Editor"
-description: '"Please organize the imports" / "isort plz kthxbye"'
+description: 
 category: "programming"
 tags: [tools, Python, isort]
+tagline: '"Please organize the imports" / "isort plz kthxbye"'
 ---
 {% include JB/setup %}
 
