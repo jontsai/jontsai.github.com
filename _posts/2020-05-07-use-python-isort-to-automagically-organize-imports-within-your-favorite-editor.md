@@ -9,34 +9,34 @@ tags: [tools, Python, isort]
 
 # tl;dr;
 
-**isort** (**[[ https://pypi.org/project/isort/ | PyPI ]]** | **[[ https://github.com/timothycrosley/isort | GitHub ]]**) is a wonderful tool that will sort imports in Python automagically, so that you no longer have to either a) ignore eye-sores during code reviews, or b) sound like an angry grandparent asking people to sort/organize imports.
+**isort** (**[PyPI](https://pypi.org/project/isort/)** | **[GitHub](https://github.com/timothycrosley/isort)**) is a wonderful tool that will sort imports in Python automagically, so that you no longer have to either a) ignore eye-sores during code reviews, or b) sound like an angry grandparent asking people to sort/organize imports.
 
 
 ## Quick Setup
 If you know your away around the *nix environment, these are the abridged instructions:
 
-1. Make the `isort` binary available somewhere in your **[[ https://en.wikipedia.org/wiki/PATH_(variable) | path ]]**.
-1. Install the **`isort` plugin** for the **[[ https://github.com/timothycrosley/isort/wiki/isort-Plugins | editor of your choice ]]**.
+1. Make the `isort` **binary** available somewhere in your **[path](https://en.wikipedia.org/wiki/PATH_(variable))**.
+1. Install the `isort` **plugin** for the **[editor of your choice](https://github.com/timothycrosley/isort/wiki/isort-Plugins)**.
 1. Profit
 
 **NOTE: (Optional but recommended)** Add a `.isort.cfg` file to your HOME directory, so that even you are working on a random script or project that doesn't have one, the powers of `isort are stil available to you.
 
 ## Drudgerous Line-by-Line Instructions (or my setup)
 
-1. If you don't have one already, create a new system-wide **[[ https://virtualenv.pypa.io/en/stable/ | Python virtualenv ]]**.
+1. If you don't have one already, create a new system-wide **[Python virtualenv](https://virtualenv.pypa.io/en/stable/)**.
   1. The way I'd do that is to do: `/path/to/bin/python/virtualenv ~/.venv`
 1. Install isort.
   1. `~/.venv/bin/pip install isort`
   1. (Generic command: `/path/to/venv/pip install isort`)
 1. Add the `bin` directory of your system-wide `virtualenv` to your path, or just the select binaries that you want.
-  1. I have already added `~/bin/` to my path via **[[ https://github.com/jontsai/bash-ftw | bash-ftw ]]**, so my preference is to just symlink the specific binaries that I need.
+  1. I have already added `~/bin/` to my path via **[bash-ftw](https://github.com/jontsai/bash-ftw)**, so my preference is to just symlink the specific binaries that I need.
   1. For convenience, I've symlinked the following:
     1. `ln -s ~/.venv/bin/isort ~/bin/isort`
     1. `ln -s ~/.venv/bin/python3 ~/bin/python3`
     1. `ln -s ~/.venv/bin/pip ~/bin/pip`
-1. Install an **[[ https://github.com/timothycrosley/isort/wiki/isort-Plugins | isort plugin ]]** for your editor (in my case, `emacs`, **The best text editor in the world™**).
+1. Install an **[isort plugin](https://github.com/timothycrosley/isort/wiki/isort-Plugins)** for your editor (in my case, `emacs`, **The best text editor in the world™**).
   1. For `emacs` only:
-    1. (For **EZMODE™**, my **[[ https://github.com/jontsai/dotemacs | dotemacs setup is on GitHub ]]**; just `git clone` and `make install`)
+    1. For **EZMODE™**, my **[dotemacs setup is on GitHub](https://github.com/jontsai/dotemacs)**; just `git clone`, `make install`, and you're set.
     1. Add two lines to your dotemacs (typically `~/.emacs.el` or `~/.emacs.elc`, or somewhere in your Emacs load path):
       1. `(require 'py-isort)`
       1. `(add-hook 'before-save-hook 'py-isort-before-save)`
