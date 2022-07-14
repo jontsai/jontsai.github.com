@@ -66,7 +66,7 @@ def build_response(color, food, location):
         'location': Location(location),
     }
     return response
-``
+```
 
 **Usage**
 
