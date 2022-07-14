@@ -34,7 +34,7 @@ Without further ado, these are my suggestions:
 - `extract_`
 - `fetch_`
 - `look_up_` / `retrieve_`
-- `transform_`
+- `format_` / `transform_`
 
 Below are examples and sample code, in Python (my language of choice).
 
@@ -323,7 +323,7 @@ class ItemRepo:
         return price
 ```
 
-### `transform_`
+### `format_` / `transform_`
 
 **When to use it**: When the desire output is a derivative of the inputs, or a _metamorphosis_ such that output is not recognizable from the original form, but only to a connoiseur.
 
@@ -355,6 +355,8 @@ def transform_potato(raw_potato, form_factor):
 
     return result
 ```
+
+Alternatively, `format_potato` with the same function body above would work.
 
 ## Conclusion
 
