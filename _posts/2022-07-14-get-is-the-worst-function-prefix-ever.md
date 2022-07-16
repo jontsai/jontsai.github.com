@@ -154,7 +154,7 @@ A method named `calculate_` will mentally prepare the engineer to be extra caref
 
 **When to use it**: When you need one, or a few pieces of information, from a more complex structure.
 
-** Analogy**: You have a plain rock (diamond ore, gold ore) which is relatively useless on the _surface_, and want to **extract** the valuable contents (diamonds, gold).
+**Analogy**: You have a plain rock (diamond ore, gold ore) which is relatively useless on the _surface_, and want to **extract** the valuable contents (diamonds, gold).
 
 **Setup**
 
