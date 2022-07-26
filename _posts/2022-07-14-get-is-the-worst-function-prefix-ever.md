@@ -1,4 +1,4 @@
----
+0;95;0csetter---
 layout: post
 title: "Get Is the Worst Function Prefix Ever"
 description: "Software people are supposed to be creative"
@@ -9,7 +9,7 @@ tags: [programming,]
 
 ## tl;dr;
 
-Unless the function you are writing is a `getter` (which complements a `[setter](https://en.wikipedia.org/wiki/Mutator_method)`), please avoid naming methods `get_`.
+Unless the function you are writing is a `getter` (which complements a [`setter`](https://en.wikipedia.org/wiki/Mutator_method)), please avoid naming methods `get_`.
 
 `get_` lacks descriptiveness, precision, and is **boring**.
 
