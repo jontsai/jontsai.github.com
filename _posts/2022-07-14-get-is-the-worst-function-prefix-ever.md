@@ -204,8 +204,8 @@ def extract_location_name(response):
 
 # Usage
 
-color = get_color(response)
-location_name = get_location_name(response)
+color = extract_color(response)
+location_name = extract_location_name(response)
 ```
 
 **Great**
