@@ -7,7 +7,7 @@ tags: [ssh,git,security,automation,dotfiles]
 ---
 {% include JB/setup %}
 
-In my [previous post](/2024/11/21/signing-git-commits-using-ssh-instead-of-gpg/), I covered the basics of signing Git commits with SSH keys instead of GPG. This post covers the automation and multi-machine setup I built to make SSH signing seamless across 12+ machines.
+In my [previous post](/2024/11/21/signing-git-commits-using-ssh-instead-of-gpg), I covered the basics of signing Git commits with SSH keys instead of GPG. This post covers the automation and multi-machine setup I built to make SSH signing seamless across 12+ machines.
 
 ## The Challenge
 
