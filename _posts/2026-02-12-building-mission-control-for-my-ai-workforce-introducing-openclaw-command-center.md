@@ -29,7 +29,7 @@ The math: **1000x productivity multiplier.** That's not hyperbole. That's my liv
 - **10 satellite agents** — specialized workers
 - **1 "Godfather" orchestrator** — coordinates everything
 - **20+ scheduled tasks per instance** — running 24/7
-- **Hardware:** 2yo Mac Studio M2 Ultra, a couple Mac Minis, a MacBook Pro, a VM on Windows Server
+- **Hardware:** Mac Studio M2 Ultra + Mac Minis + MacBook Pro + VirtualBox VMs on top of old Windows host
 
 Each OpenClaw instance is a "GM" (General Manager) that oversees one aspect of my personal or professional life. They advance my goals and keep me locked in — even when I'm sleeping.
 
