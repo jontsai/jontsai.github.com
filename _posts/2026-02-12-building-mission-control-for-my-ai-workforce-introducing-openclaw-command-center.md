@@ -39,6 +39,12 @@ The possibilities are endless. **AGI is here.**
 
 ---
 
+## See It In Action
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/453cafab9dd142abb21559dee37785c7" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+---
+
 ## The Vision: Bring the Work to Where Humans Are
 
 I've seen the mockups and prototypes online — "the future of work" dashboards, agent orchestration UIs, yet-another-SaaS-tool. That's the wrong direction.
