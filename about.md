@@ -16,14 +16,14 @@ First and foremost, I am a Christian. In other words, I have trusted in <a href=
 
 After treasuring my Lord and Savior Jesus Christ, my family is more important to me than anything in <em>this</em> world.
 
-As a <a href="http://talentral.com/profile/jontsai" target="_blank">software-hacker-generalist-ninja-entrepreneur</a> by skill/trade/training who graduated from <a href="https://cal.berkeley.edu/jontsai" target="_blank">Berkeley CS</a>, I'm incredibly lazy and diligent at the same time--which forces me to be creative and automate things. For me, crafting software is a union of right-brain <strong>and</strong> left-brain activity--an artistic pursuit melded with deep technical analysis, resulting in pure elegance.
+As a <a href="https://portfolios.talentral.com/profile/jontsai" target="_blank">software-hacker-generalist-ninja-entrepreneur</a> by skill/trade/training who graduated from <a href="https://cal.berkeley.edu/jontsai" target="_blank">Berkeley CS</a>, I'm incredibly lazy and diligent at the same time--which forces me to be creative and automate things. For me, crafting software is a union of right-brain <strong>and</strong> left-brain activity--an artistic pursuit melded with deep technical analysis, resulting in pure elegance.
 
 I really enjoy <a href="http://pkkup.com/profile/jontsai" target="_blank">basketball</a>, swimming, <a href="http://www.strava.com/athletes/jontsai" target="_blank">cycling</a>, <a href="https://soundcloud.com/jontsai" target="_blank">music</a>, <a href="http://flickr.com/jontsai8601" target="_blank">photography</a>, good writing, learning to speak different languages with an accurate pronunciation, and reading <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Wikipedia</a>.
 
 ## Links ##
 
 * Professional Profiles
-  * Talentral: <http://talentral.com/profile/{{ site.author.talentral }}>
+  * Talentral: <https://portfolios.talentral.com/profile/{{ site.author.talentral }}>
   * LinkedIn: <http://linkedin.com/in/{{ site.author.linkedin }}>
   * Cal: <http://cal.berkeley.edu/{{ site.author.cal }}>
   * About.me: <http://about.me/{{ site.author.aboutme }}>
