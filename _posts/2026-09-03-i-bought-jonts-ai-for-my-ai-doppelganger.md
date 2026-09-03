@@ -9,9 +9,13 @@ tags: [ai,agents,github,ascii-art,personal]
 
 I did a very normal thing: I bought [`jonts.ai`](https://www.jonts.ai) for 2 years for $179.96 so my AI alter ego could have a proper home.
 
+![Purchase summary showing jonts.ai domain registration for 2 years at $179.96](/img/posts/2026-09-03-jonts-ai/purchase-summary.png)
+
 The site is intentionally tiny:
 
 [https://www.jonts.ai](https://www.jonts.ai)
+
+![Screenshot of the jonts.ai landing page with a colored ASCII-art portrait](/img/posts/2026-09-03-jonts-ai/site-preview.png)
 
 It says, simply:
 
